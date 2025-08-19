@@ -17,7 +17,9 @@ class HomeScreen extends StatelessWidget{
   }
 
   Widget _plantsCard(BuildContext context){
-    
+    return Padding(
+      padding: const EdgeInsets.all(0.0)),
+      child: SizedBox)
   }
 
 }
