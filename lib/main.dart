@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:recipebook/screens/home_screen.dart';
+import 'dart:io';
 
 void main() => runApp(const MainApp()); 
   
@@ -13,8 +14,8 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "libro de plantas",
-      home: PlantsBook(),
-      );
+      home: PlantsBook());
+      
   }
 }
 
@@ -22,7 +23,7 @@ class PlantsBook extends StatelessWidget{
   const PlantsBook({super.key});
 
   @override
-  Widget @override
+  
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 4, 
